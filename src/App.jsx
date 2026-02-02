@@ -30,8 +30,8 @@ function App() {
   }
 
   const handleNoHover = () => {
-    const randomTop = Math.random() * 80 + 10
-    const randomLeft = Math.random() * 80 + 10
+    const randomTop = Math.random() * 70 + 10
+    const randomLeft = Math.random() * 70 + 10
     setNoButtonPosition({ top: randomTop, left: randomLeft })
     setNoClickCount(prev => Math.min(prev + 1, noMessages.length - 1))
   }

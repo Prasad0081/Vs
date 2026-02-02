@@ -50,7 +50,7 @@ function App() {
     return (
       <div className="container celebration" onClick={createHeart}>
         <div className="celebration-content">
-          <img src="cuddle-cats.gif" alt="Cuddling Cats" className="cuddle-gif" />
+          <img src={`${import.meta.env.BASE_URL}cuddle-cats.gif`} alt="Cuddling Cats" className="cuddle-gif" />
           <h1 className="celebration-title">Yay! 🎉</h1>
           <p className="celebration-text">
             I'm so happy! You've made me the luckiest person in the world! 💖
